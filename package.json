@@ -1,0 +1,30 @@
+{
+  "name": "gestao",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3511",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3005",
+    "lint": "eslint",
+    "importar": "python scripts/importar.py",
+    "pm2:start": "pm2 start ecosystem.config.cjs && pm2 save",
+    "pm2:restart": "pm2 restart gestao-sofitel",
+    "pm2:logs": "pm2 logs gestao-sofitel"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
