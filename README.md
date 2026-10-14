@@ -1,4 +1,4 @@
-# gestao1
+# Gestao
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
@@ -20,14 +20,15 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates with your changes.
 
 ## Learn More
 
 To learn more, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+- [Next.js Documentation](https://nextjs.org/docs) - https://nextjs.org/docs
+- [Learn Next.js](https://nextjs.org/learn) - https://nextjs.org/learn
+- [v0 Documentation](https://v0.app/docs) - https://v0.app/docs
+
